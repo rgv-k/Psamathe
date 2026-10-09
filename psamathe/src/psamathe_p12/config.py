@@ -1,5 +1,3 @@
-"""Display/representation configuration for P1.2 (no simulation parameters)."""
-
 from __future__ import annotations
 
 from dataclasses import dataclass

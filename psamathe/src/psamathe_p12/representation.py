@@ -1,17 +1,3 @@
-"""P1.2 representation layer (GUI-independent).
-
-``StateRepresentation`` consumes ``SimulationState`` snapshots and maintains
-exactly what a display needs: the latest state, bounded trajectory histories,
-scaled vector glyphs, axis bounds and the list of numerical indicators.
-
-It is a pure *consumer*:
-* it never modifies a snapshot (they are frozen),
-* it never talks back to the source (only ``next_snapshot()`` is called),
-* it performs no physics and derives no scientific quantities.
-
-Rendering lives in ``viewer.py``; this module needs no plotting library.
-"""
-
 from __future__ import annotations
 
 from collections import deque

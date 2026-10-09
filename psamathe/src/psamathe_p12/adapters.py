@@ -1,8 +1,4 @@
-"""Generic adapters that turn *anything* into a ``SimulationStateProvider``.
 
-These are the intended connection points for a future P1.1 simulator.  They
-contain no physics and know nothing about P1.1.
-"""
 
 from __future__ import annotations
 

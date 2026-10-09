@@ -1,11 +1,4 @@
-"""Matplotlib rendering of a ``StateRepresentation``.
 
-The viewer only *draws*.  It reads from the representation and polls a
-``SimulationStateProvider``; it has no access to physics or simulator controls.
-
-Interactive keys: SPACE pause/resume, T trajectories, V velocity arrows,
-I particle ids (plus matplotlib's standard keys, e.g. Q to quit).
-"""
 
 from __future__ import annotations
 

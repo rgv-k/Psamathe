@@ -1,9 +1,3 @@
-"""The interface between any state source (mock or real P1.1) and P1.2.
-
-This is the single seam where P1.1 plugs in.  P1.2 depends on this
-``Protocol`` only; it never imports a concrete simulator.
-"""
-
 from __future__ import annotations
 
 from typing import Optional, Protocol, runtime_checkable

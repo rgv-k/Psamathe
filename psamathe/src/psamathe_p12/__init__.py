@@ -1,9 +1,4 @@
-"""Psamathe P1.2 - Graphical and Computational Representation layer.
 
-Importing this package does NOT import matplotlib; the viewer is loaded only
-from ``psamathe_p12.viewer`` so the data model and representation logic stay
-usable (and testable) without any GUI stack.
-"""
 
 from .adapters import CallableStateProvider, IterableStateProvider, coerce_state
 from .config import RepresentationConfig

@@ -1,19 +1,4 @@
-"""P1.2 state interface: the snapshot data model.
 
-These immutable dataclasses are the *only* thing P1.2 knows about the
-simulation.  A future P1.1 simulator (or an adapter around it) must produce
-``SimulationState`` objects; P1.2 never imports or inspects P1.1 internals.
-
-Design rules
-------------
-* Snapshots are immutable (``frozen=True``): the representation layer cannot
-  modify the physical state it is shown.
-* Everything is validated on construction, so a malformed snapshot fails
-  loudly at the boundary (``StateValidationError``) instead of corrupting a
-  display later.
-* Optional quantities default to ``None`` and are shown as "unavailable".
-  Nothing is ever estimated or fabricated by P1.2.
-"""
 
 from __future__ import annotations
 

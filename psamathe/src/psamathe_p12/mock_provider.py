@@ -1,17 +1,3 @@
-"""P1.2 Demo / Mock State Provider.
-
-*** This is NOT the Psamathe physics simulator. ***
-
-It exists only so the P1.2 visualization can be run and tested before P1.1 is
-available.  It does not compute gravitational forces and does not use any
-numerical integrator.  Instead it evaluates fixed, closed-form elliptical
-paths (position and the exact analytic time-derivative for velocity) around a
-stationary central body, purely to generate believable, deterministic data.
-
-Replace it with a real P1.1 adapter (see README, "Connecting P1.1").  Nothing
-in the representation or viewer modules imports this file.
-"""
-
 from __future__ import annotations
 
 import math
