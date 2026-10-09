@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: psamathe
+Version: 0.1.0
+Summary: Adaptive computational governance for scientific simulation
+Requires-Python: >=3.11
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
